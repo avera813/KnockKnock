@@ -12,24 +12,24 @@ namespace KnockKnock
 {
     public partial class Form1 : Form
     {
-        class Joke
+        class JokeState
         {
             public string labelText;
             public string buttonText;
         }
 
         int clickCount = 1;
-        List<Joke> jokes = new List<Joke>()
+        List<JokeState> jokes = new List<JokeState>()
         {
-            new Joke() { labelText = "Knock, Knock!", buttonText = "Who's there?" },
-            new Joke() { labelText = "Abby", buttonText = "Abby who?" },
-            new Joke() { labelText = "Abby New Year!", buttonText = "Start Over" },
-            new Joke() { labelText = "Knock, Knock!", buttonText = "Who's there?" },
-            new Joke() { labelText = "Anee", buttonText = "Anee who?" },
-            new Joke() { labelText = "Anee one you like!", buttonText = "Start Over" },
-            new Joke() { labelText = "Knock, Knock!", buttonText = "Who's there?" },
-            new Joke() { labelText = "Robin", buttonText = "Robin who?" },
-            new Joke() { labelText = "Robin the piggy bank again!", buttonText = "Start Over" }
+            new JokeState() { labelText = "Knock, Knock!", buttonText = "Who's there?" },
+            new JokeState() { labelText = "Abby", buttonText = "Abby who?" },
+            new JokeState() { labelText = "Abby New Year!", buttonText = "Start Over" },
+            new JokeState() { labelText = "Knock, Knock!", buttonText = "Who's there?" },
+            new JokeState() { labelText = "Anee", buttonText = "Anee who?" },
+            new JokeState() { labelText = "Anee one you like!", buttonText = "Start Over" },
+            new JokeState() { labelText = "Knock, Knock!", buttonText = "Who's there?" },
+            new JokeState() { labelText = "Robin", buttonText = "Robin who?" },
+            new JokeState() { labelText = "Robin the piggy bank again!", buttonText = "Start Over" }
         };
 
         public Form1()
